@@ -1,0 +1,328 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background: url(https://images.unsplash.com/photo-1614851099511-773084f6911d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJsYWNrJTIwZ3JhZGllbnR8ZW58MHx8MHx8fDA%3D);
+    border-radius: 5px;
+    padding: 5px;
+}
+#summary{
+    width: auto;
+    font-size: x-large;      
+}
+.image-container {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    background-color: #f4f4f4; 
+    margin-top: 10px;
+}
+
+.img {
+    width: 250px;                
+    height: 250px;               
+    border-radius: 10px;         
+}
+
+#skills {
+    text-align: center;
+    padding: 20px;
+}
+
+#skills h1 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.skil {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skil:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form {
+background: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+max-width: 100%;
+display: block;
+width: 100%;
+}
+.contact-form h2  {
+margin-bottom: 20px;
+text-align: center;
+}
+.contact-form label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+.contact-form button {
+background-color: #007bff;
+color: white;
+border: none;
+padding: 10px 15px;
+font-size: 16px;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+}
+.contact-form button:hover {
+background-color: #0056b3;
+}
+footer {
+background-color: #182848;
+color: white;
+text-align: center;
+padding: 20px ;
+margin-top: 20px;
+}
+#Project {
+display: flex; 
+gap: 20px; 
+justify-content: center; 
+flex-wrap: wrap; 
+margin: 20px auto;
+padding: 10px;
+max-width: 80%;
+}
+
+
+#Project img {
+width: 120px; 
+height: 120px;
+border-radius: 15px; 
+border: 2px solid #ddd;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+#Project img:hover {
+transform: scale(1.2); 
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}    
+#Project h2  {
+margin-bottom: 20px;
+text-align: center;
+} */
+
+
+/* Original CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background: url(https://images.unsplash.com/photo-1614851099511-773084f6911d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJsYWNrJTIwZ3JhZGllbnR8ZW58MHx8MHx8fDA%3D);
+    border-radius: 5px;
+    padding: 5px;
+}
+#summary{
+    width: auto;
+    font-size: x-large;      
+}
+.image-container {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    background-color: #f4f4f4; 
+    margin-top: 10px;
+}
+
+.img {
+    width: 250px;                
+    height: 250px;               
+    border-radius: 10px;         
+}
+
+#skills {
+    text-align: center;
+    padding: 20px;
+}
+
+#skills h1 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.skil {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skil:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form {
+background: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+max-width: 100%;
+display: block;
+width: 100%;
+}
+.contact-form h2  {
+margin-bottom: 20px;
+text-align: center;
+}
+.contact-form label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+.contact-form button {
+background-color: #007bff;
+color: white;
+border: none;
+padding: 10px 15px;
+font-size: 16px;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+}
+.contact-form button:hover {
+background-color: #0056b3;
+}
+footer {
+background-color: #182848;
+color: white;
+text-align: center;
+padding: 20px ;
+margin-top: 20px;
+}
+#Project {
+display: flex; 
+gap: 20px; 
+justify-content: center; 
+flex-wrap: wrap; 
+margin: 20px auto;
+padding: 10px;
+max-width: 80%;
+}
+
+
+#Project img {
+width: 120px; 
+height: 120px;
+border-radius: 15px; 
+border: 2px solid #ddd;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+#Project img:hover {
+transform: scale(1.2); 
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}    
+#Project h2  {
+margin-bottom: 20px;
+text-align: center;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #skills h1 {
+        font-size: 1.5em;
+    }
+
+    .skil {
+        width: 60px;
+        height: 60px;
+    }
+
+    #summary {
+        font-size: large;
+        text-align: center;
+    }
+
+    #Project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Project img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contact-form {
+        padding: 15px;
+    }
+
+    .skil {
+        width: 50px;
+        height: 50px;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
