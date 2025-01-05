@@ -326,3 +326,9 @@ text-align: center;
         font-size: 0.9em;
     }
 }
+.resume{
+margin:auto;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
